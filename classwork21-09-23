@@ -1,1 +1,53 @@
 
+ls -l :-will show the file logs
+first letter will show the file type
+there are 3 type of file permissions user,group,other
+file permissions:- character notation,numeric notation
+character Notation
+-------------------
+1.r-read
+2.w-write
+3.x-execute
+4.+-add permission
+5.- remove permission
+6.u-user
+7.g-group
+8.o-other
+
+
+Sytnex
+----------
+chmod u/g/o +/- r/w/x file name;
+
+QUESTION To add execute permission to the user for file  DEMO 
+---------------------------------------------------------------
+Answer:- chmod u+x DEMO
+QUESTION To add write permission to group for file DEMO
+--------------------------------------------------------
+ QUESTION To give execute permission to user and group for file DEMO
+-----------------------------------------------------------------------
+Answer:-
+remove execute permission form user and group 
+give write permission to user
+cmdod ugo+w DEMO,chmod a+w DEMO
+remove w and x from other
+remove x for g
+remove x for u
+
+create a file name linux set file permissions as follow 
+u-rwx
+g-rx
+o- ---
+Answer:-chmod u
+
+NUMERIC NOTATION
+-----------------
+r-4
+w-2
+x-1
+
+ QUESTION Create a file name unix and do the following permissions user -rx group -rw other -null
+----------------------------------------------------------------------------------------------------
+
+
+
